@@ -16,6 +16,7 @@
 		91A787382AF11113009D6692 /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A787372AF11113009D6692 /* LocationView.swift */; };
 		91A7873A2AF11342009D6692 /* LocationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A787392AF11342009D6692 /* LocationsViewModel.swift */; };
 		91A7873C2AF11879009D6692 /* LocationsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A7873B2AF11879009D6692 /* LocationsListView.swift */; };
+		91A7873E2AF12371009D6692 /* LocationPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A7873D2AF12371009D6692 /* LocationPreviewView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		91A787372AF11113009D6692 /* LocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationView.swift; sourceTree = "<group>"; };
 		91A787392AF11342009D6692 /* LocationsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsViewModel.swift; sourceTree = "<group>"; };
 		91A7873B2AF11879009D6692 /* LocationsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsListView.swift; sourceTree = "<group>"; };
+		91A7873D2AF12371009D6692 /* LocationPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPreviewView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 			children = (
 				91A787372AF11113009D6692 /* LocationView.swift */,
 				91A7873B2AF11879009D6692 /* LocationsListView.swift */,
+				91A7873D2AF12371009D6692 /* LocationPreviewView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -186,6 +189,7 @@
 			files = (
 				91A787242AF0FE91009D6692 /* ContentView.swift in Sources */,
 				91A7873C2AF11879009D6692 /* LocationsListView.swift in Sources */,
+				91A7873E2AF12371009D6692 /* LocationPreviewView.swift in Sources */,
 				91A7873A2AF11342009D6692 /* LocationsViewModel.swift in Sources */,
 				91A787222AF0FE91009D6692 /* MapApp_SwiftUIApp.swift in Sources */,
 				91A787382AF11113009D6692 /* LocationView.swift in Sources */,
