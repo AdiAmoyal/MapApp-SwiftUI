@@ -20,12 +20,12 @@ struct LocationView: View {
             VStack {
                 header
                     .padding()
-                
                 Spacer()
-                
                 locationsPreviewStack
             }
-            
+        }
+        .sheet(item: $vm.sheetLocation) {
+            LocationDetailView(location: $0)
         }
     }
 }
